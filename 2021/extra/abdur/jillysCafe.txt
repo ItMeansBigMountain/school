@@ -1,0 +1,80 @@
+Tomato-Fennel Soup	5.00
+Pomme Frites Garlic Aioli	5.00
+Apple Fritters	6.00
+Escargot a la Bourguignonne	10.00
+Mussels Marinieres	13.00
+Crab Cake	13.00
+Smoked Salmon	10.00
+Soup Du Jour	5.00
+Salad Nicoise	14.00
+Jillys Steak Salad	14.00
+Mushroom Omelet	12.00
+Jilly's Omelet	12.00
+Salmon Omelet	13.00
+Loraine Omelet	13.00
+Salmone de Louvre	14.00
+Crab Benedict	16.00
+Steak Benedict	15.00
+Prosciutto Benedict	14.00
+Steak Sandwiches	14.00
+Smoked Salmon Sandwich	12.00
+Grilled Portabella Mushroom Sandwich	9.00
+Croque Madame Sandwich	9.00
+Turkey, Bacon, Brie and Apple Club Sandwich	10.00
+Normandy Sandwich	8.00
+Fromage de Chevre Sandwich	8.00
+Smoked Salmon	10.00
+Escargot a la Bourguignonne	10.00        
+Shrimp with Herbs and Garlic	13.00        
+Mussels Marinieres	13.00       
+Spring Roll	9.00        
+Crab Cake	14.00      
+Feullette of California Bay Scallops and Shrimp	14.00       
+Crispy Goat Cheese	10.00        
+Diane's Beets Salad	8.00        
+Poached Pear and Field Greens Salad	8.00     
+Arugula Salad	8.00       
+Spinach Salad	8.00        
+Tomato and Fresh Mozzarella Salad	8.00
+Cesar Salad	7.00
+Cervena Venison	36.00        
+BBQ Glazed Beef Short Ribs	30.00
+Skinless Breast of Duck and Confit Leg	28.00      
+Rack of Lamb	34.00        
+Roasted Pork Tenderloin	22.00
+Chicken Paillard	24.00        
+Steak Frites	32.00   
+Seafood Linguine	35.00
+Boullabaisse	28.00      
+Boullabaisse with Lobster	38.00
+Grilled Seafood Skewers	32.00
+Trout Almondine	28.00
+Herb Crusted Salmon Fillet	26.00
+Gnocchi Provencal	18.00        
+Mushroom Risotto	18.00  
+Pomme Frites	5.00
+Butternut Squash Puree	5.00
+Sauteed Spinach	5.00
+Steamed Broccoli	5.00
+Sauteed Mushrooms	5.00
+Haricots Verts	5.00
+Whipped Potatoes	5.00
+Sweet Potato Puree	5.00
+Asparagus	7.00
+Steak Sandwich	14.00       
+Jilly's Burger	9.00       
+Grilled Atlantic Salmon Sandwich	10.00       
+Smoked Salmon Sandwich	12.00
+Croque Madame Sandwich	9.00
+Grilled Chicken Sandwich	9.00  
+Turkey, Bacon, Brie and Apple Club Sandwich	10.00        
+Tuna Salad with Celery Sandwich	8.00       
+Grilled Portabella Mushroom	9.00       
+Key Lime Pie	6.00
+Chocolate Mousse	6.00
+Creme Brulee	6.00
+Carrot Cake	6.00
+Chocolate Lava Cake	6.00
+Peach and Mixed Berries	6.00
+Nutella a la Fraise	7.00     
+Nutella a la Banana	7.00

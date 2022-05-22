@@ -1,0 +1,16 @@
+14.2 Use code from 14.1 to perform all of the downloads without threading. Do 1 at a
+time in a loop. Compare the time difference for downloading 50 images. Which one was
+faster?
+
+    RESPONSE:
+        As to no suprise, threading significantly made our code run faster. It took a little more than half of a second to get all the pictures downloaded and its cool to see the order they completed in. As for the latter, working on proccesses one by one on the main thread will halt the data extraction proccess, thus taking almost 14 times as long!
+
+        FIFTY PICTURES EXECUTION TIME
+            threaded : 0.668036937713623 seconds
+            single proccess: 9.688412189483643 seconds
+
+        NOTE: output pictures are downloading 10 pictures so that proccess comparison can be shown on one page.
+
+
+
+

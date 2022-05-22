@@ -1,0 +1,26 @@
+15.14 
+    https://www.ncdc.noaa.gov/cag/global/time-series/globe/ocean/ytd/12/1880-2018
+    
+    Load and plot the dataset using Seaborn's regplot function. What trend do you see?
+
+    RESPONSE:
+        Similar to the prior exercise, the regression of temperatures over the years has increased. Ocean Temperatures are increasing over the years. From 2010 and on, we can see the plots exponentially growing but the line of regression won't curve as it is a linear equation in order to plot.
+
+
+
+
+15.16
+
+    Reimplement the simple linear regression case study of Section 15.4 using the average
+    yearly temperature data. How does the temperature trend compare to the average
+    January high temperatures?
+
+
+    RESPONSE:
+        I graphed two lines; the line of regression as well as the mean of all data points. After the Year 1955, we can see a shift in output. Altogether, we see a gradual increase in temperature throughout the years.
+
+        Prior to 1955, the anomalous highs are along with the average of our data-set.
+
+        Subsequent to 1955, data points start to group above the average line and after the year 2000, it becomes even less common to fall below the average of 132 years.
+
+        The anomaly column in our data-set seems to define itself as the positive/negative deviation from the average.

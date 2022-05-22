@@ -1,0 +1,66 @@
+TUPLES
+    tuples are immutable but can hold mutable items within
+
+DICTIONARIES
+    using == on dictionaries doest care about sorting... will check unsorted keys for matches
+
+SETS
+
+    UNION OPERATOR    |
+        joining indivisual items from both lists into one
+        
+        union = {5} | {5}
+        print(union)
+        {5}
+        set().union(LIST) #same thing as above
+
+    INTERSECTION OPERATOR    &
+        finding only common element between both sets
+        "&" or set().intersection(LIST)
+
+    DIFFERENCE OPERATOR    -
+        returns items from left object who are not in the right object
+            "what is on the left which isnt on the right
+
+        difference = { 1 , 3 , 5 } - {2 , 4 , 3}
+        print(difference)
+        {1, 5}
+
+    SYMETRIC DIFFERENCE    ^
+        difference between two sets that are not common between one another
+    
+            symetric_diff = { 1 , 3 , 5 } ^ {2 , 4 , 3}
+            print(symetric_diff)
+            {1, 2, 4, 5}
+
+    DISJOINT     set().isdisjoint(LIST)
+        returns boolean if there are no common values
+            disjoint = { 1 , 3 , 5 }.isdisjoint( {20 , 40 , 30} ) # True
+            disjoint = { 1 , 3 , 5 }.isdisjoint( {2 , 4 , 3} ) # False
+            print(disjoint)
+
+ITERATION COMPREHENTION
+    creating a new iterable element within it's brackets... have an item that appends within itself using forloops and/or conditionals 
+
+
+________________________________________________________________________________________
+
+NUMPY NOTES
+    numerical library
+    more efficiant than python list bc they are written in c
+
+    
+SHALLOW COPIES
+    also known as "views"
+    shallow copies are not for primative variables but rather for object defined variables within the datatype
+
+
+________________________________________________________________________________________
+
+SEABORN AND MATPLOTLIB
+    data visualization libraries 
+    
+
+________________________________________________________________________________________
+
+

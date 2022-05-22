@@ -1,0 +1,6 @@
+Player --------- Score
+-----------------------
+
+affan1 --------- 100
+1College of dupage --------- 98
+carona virus --------- 999

@@ -1,0 +1,104 @@
+EXERCISE 1
+    1. What is a classifier?
+        A classifier is an algorithm created by data scientist and mathmatiticians.
+        Each algorithm is designed to approach problems in their own way using charts and graphs.
+        The numerical inputs will either draw a lines / create clusters on a graph, create a chart of relational decicion making bias , and many more mathematical tecniques to solve learn from training data and predict on testing models with accuracy. 
+
+    2. Compare and contrast Decision Tree and k Nearest Neighbors classifiers
+        Decision Tree - 
+            Binary model that recursevly split data into either a decision node or pure data leaf node. Using the information theory's law of entropy, the algo is logging the information gain for both sides of the decicion node's children. Enummerating all possible combonations in order to find the decision tree with the most entropy. Playing by majority vote, the decisions made in this algo are based on the possibility of splitting data into further subsets of decisions and leafs in order to obtain a verbose data map of where predictions may lie. Great for true/false surveys.
+
+        K Nearest Neighbors - 
+            - find number of training samples
+            - find a point on the graph (normally a middle point from a known cluster data section)
+            - Store training samples in array
+            - Calculate Euclidean distance from each data point and a specified location on the graph
+            - make set of smallest distances from specified point
+            - return majority label amoung smallest distnace set
+
+            tldr : for reach data point - find distances of nearby classified plots
+                if close enough using Euclidean Distance - unnamed plot is classified as close plots
+
+
+
+        
+    3. Which one do you think will more accurately predict this digits dataset? Why?
+        K Nearest Neighbors uses numerical graph data in a way that compiles similar answers close to one another. This is more effective than having to follow a tree of decisions as the complexity of darker squares (high number in array) overlaps one another too much. Opposed to plotting on more space and finding distance of similarities.
+
+
+
+
+
+EXERCISE 3
+    1. Which model performed the best? Were there any models with identical mean accuracy?
+        SVM and KNN had almost identical Mean Accuracy.
+
+
+    2. What is hyperparameter tuning?
+        Hyperparameter tuning is changing variables within the Machine Learning Classification Algorithm. Knowing how the algorithm works will allow the data scientist to change aspects of the algorithm's pattern seeking strategy. 
+
+
+    3. Why is it useful to be able to execute many models at once?
+        Different strategies applied to the same question is one of the greatest points "coding" makes. Mathematical engines consume an input and return an output. The tecniques used can vary in effeciancy due to aspects of our labeled data.
+
+
+
+
+
+
+
+Is changing the number of clusters in "K nearest Neighbors" a specific technique of Hyperparameter Tuning? Just to clarify that there are hyperparameter tuning techniques for each classification model algorithm?
+    Yes, changing the number of clusters is a specific technique of hyper-parameter tuning. In the same way the random_state argument is a form of hyper-parameter tuning. Hyper-parameters are simply the arguments tuned by the user when configuring the model. Most classification models will have some hyperparameters that you can tune. Some may tell you the model is most effective not tuning them yourself. It depends on the use case and the model. 
+
+
+
+
+
+
+
+The digits dataset is a numpy array with a data attrib & target attrib. I am having a hard time understanding how crossValidator avoided using train_test_split( ) to pull x/y train & test variables. I would like to know what kind of inheritance digits.target and digits .data has. How do these data sets simulate real world data sets?
+
+    Kfolds Cross-Validation takes all of your data and will split it up into k equal-sized pieces.  Instead of us trying different ratios of training and test data with train_test_split() to get the best result, Kfolds cross validation does it for us. For example, let's say our data has 100 entries and we specify a k value of 10. The CrossValidation is going to first try k-1, where (10-1) 9, or 90% of the data will be used for training, and 10% used for testing. It will then run the model and store how accurate it is. It will then try k-2, where 80% of the data will be used for training, and 20% for testing, it will run the model again, and save that result. It will do this until it has tried all possible combinations of training and test data from the k you specify. You can then view the results as a list to see which one produced the best results. You can see this in 15.3.2. 
+
+
+    Digits.target and digits.data are good datasets for learning machine learning. It is simple enough and visual to get the concepts across. Real-world datasets have the potential to be several orders of magnitude larger, but the same principles still apply. 
+
+
+
+
+
+
+
+
+
+What is a random_state? How is adding an element of randomness helping the kfold? Train_test_split() uses random_state too? what for?
+
+    random_state tells the algorithm how to split up the data into training and test sets. It is used as a seed. If you tell train_test_split() "use 50% of my data for training, and 50% for testing" but do not supply random_state, your training data and test data will change each time. By supplying the same random_state number and running the algorithm more than once, you know that your training and test datasets will remain the same regardless of how many times you run the model. 
+
+
+
+Does every ML Classification Algo have the .fit() and .predict()?
+while testing this out, Decision Tree does but I cannot use it like knn. 
+Basically, does sklearn and TensorFlow have a way where I can just simply use a list of ML algos with the polymorphing the commands? Or do I need crossValidation for that? 
+
+    You are correct, you would use k folds cross-validation for this. See example 15.5.9 for an example. You choose which models you want to test and loop through them, using k folds cross-validation to find the model that produces the best results. 
+
+
+
+
+
+
+
+
+Confusion matrix: How does it work with the placements of ones and the diagonal number? What if the one was placed on top of the diagonal index?
+
+    The diagonal number in the confusion matrix tells you how many of the samples were predicted correctly for that sample's class. Here is the first row of the confusion matrix for the digits dataset. Remember, we have 45 of each sample in the dataset, so 45 0's, 1's, 2's, 3's.... 10's.
+
+    [45, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+    Think each row as list. Each column corresponds to a sample (the numbers in the dataset). This row said that the model predicted 45 0's correctly, and none of the other samples incorrectly. 
+
+    Here is row 8. The model predicted 39 of the 45 8's correctly. It incorrectly said one of the 8s was a 1, 2, and a 9. It also incorrectly said 2 of the 3's were an 8. 
+
+    [ 0, 1, 1, 2, 0, 0, 0, 0, 39, 1]
+
